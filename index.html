@@ -19,12 +19,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
+    <script type="text/javascript" src="nav.js"></script>
     
 </head>
 <body>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 75px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 75px;" id="teste">
 
           <a style="color: #83589D; font-size: 22px;"class="navbar-brand" href="#">
             <b>< /> LEONARDO CANGUSSU</b>
@@ -36,19 +37,19 @@
           <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a style="color: #83589D" class="nav-link" href="#">Inicio</a>
+                <a style="color: #83589D" class="nav-link" href="#1">Inicio</a>
               </li>
               <li class="nav-item" style="text-align: right;">
-                <a class="nav-link" href="#">Sobre mim</a>
+                <a class="nav-link" href="#2">Sobre mim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tecnologias</a>
+                <a class="nav-link" href="#services">Tecnologias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projetos</a>
+                <a class="nav-link" href="4">Projetos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
+                <a class="nav-link" href="5">Contatos</a>
               </li>
               <li class="curriculo">
                 <a style="color:white" class="nav-link" href="#">CURRÌCULO</a>
@@ -60,7 +61,7 @@
       </header>
     <!-- End Header -->
 
-    <section id="secao1" class="principal">
+    <section id="1" class="principal">
             <div class="container-fluid" id="teste">
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto" data-aos="fade-right">
@@ -77,7 +78,7 @@
                 </div>
         </section>
 
-        <section id="secao2" data-aos="fade-left">
+        <section id="2" data-aos="fade-left">
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div style="padding-top: 80px; padding-left: 100px;" class="col">
@@ -87,7 +88,7 @@
                         <h1>Sobre mim</h1>
                         <p>Cursando o último semestre em Ciência da Computação na FAM - Faculdade de Americana, 
                             <p>Tenho 25 anos e atualmente estou estudando ás seguintes tecnologias:</p>                 
-                            <p>HTML, CSS,, JavaScript, jQuery, PHP com framework Laravel e Vue.js.</p>
+                            <p>HTML, CSS, Git, JavaScript, jQuery, PHP com framework Laravel e Vue.js.</p>
                         </p>
                     </div>
                 </div>
@@ -222,12 +223,13 @@
 
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        
         <script>
+          
           AOS.init({
               duration: 2000,
-              once: true
           });
-        </script>
 
+        </script>
 </body>
 </html>

@@ -30,10 +30,52 @@ p {
     color: #37474F;
     font-family: 'RobotoRegular';
 }
+.services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+  }
+  .section-bg {
+    background-color: #d5cae330;
+  }
 
-p:hover {
+  .services .icon-box:hover {
+    transform: translateY(-5px);
+    border-color: #83589D;
+    transform: scale(1.1);
+  }
+  
+  .services .icon i {
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 15px;
     color: #83589D;
-}
+  }
+
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  
+  .services .title a {
+    color: #111;
+    padding-top: 20px;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
 
 nav,
 ul {

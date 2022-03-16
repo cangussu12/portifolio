@@ -1,4 +1,7 @@
-
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 @font-face {
     font-family: 'RobotoRegular';
@@ -22,42 +25,81 @@ nav {
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
+    opacity: 99%;
     box-shadow: 0px 1px 5px 0 #b6b6b6 !important;
 }
 
 h1,
-p {
+p a {
     color: #37474F;
     font-family: 'RobotoRegular';
 }
+
 .services .icon-box {
+  padding: 30px;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 5px 15px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+.projetos .icon-box {
+    
+    align-items: center;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 1 5px 5px 1 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+
+  }
+
+  .projetos .icon-box:hover {
+    transform: translateY(-5px);
+    opacity: 60%;
+    transform: scale(1.1);
+  }
+
+  .contatos .icon-box {
+    
     padding: 30px;
+    max-width: 100vw;
     position: relative;
     overflow: hidden;
     margin: 0 0 40px 0;
     background: #fff;
-    box-shadow: 0 5px 15px 0 rgba(68, 88, 144, 0.1);
+    box-shadow: 0px 1px 3px 1px #83589d94;
     transition: all 0.3s ease-in-out;
     border-radius: 15px;
     text-align: center;
     border-bottom: 3px solid #fff;
+
   }
+
   .section-bg {
     background-color: #d5cae330;
   }
 
   .services .icon-box:hover {
     transform: translateY(-5px);
-    border-color: #83589D;
+    border-color: #83589d63;
     transform: scale(1.1);
   }
   
-  .services .icon i {
+  .services .contatos .icon i {
     font-size: 55px;
     line-height: 1;
     margin-bottom: 15px;
     color: #83589D;
   }
+
 
   .services .title {
     font-weight: 700;
@@ -75,6 +117,13 @@ p {
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 0;
+  }
+
+  .contatos .icon i {
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #83589D;
   }
 
 nav,
@@ -129,6 +178,7 @@ h1:hover,
 .principal {
     height: 650px;
     background-color: #F3F3F3;
+    max-width: 100%;
 }
 
 .prazer {
@@ -143,6 +193,7 @@ h1:hover,
 
 .imagem {
  float: right;
+ max-width: 0vw;
 }
 
 

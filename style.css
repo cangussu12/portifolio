@@ -83,22 +83,9 @@ p a {
   padding-top: 15px;
 }
 
-.projetos .icon-box {
-    
-    align-items: center;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 1 5px 5px 1 rgba(68, 88, 144, 0.1);
-    transition: all 0.3s ease-in-out;
-    border-radius: 15px;
-    text-align: center;
 
-  }
-
-  .projetos .icon-box:hover {
-    transform: translateY(-5px);
+.img-box:hover a{
     opacity: 60%;
-    transform: scale(1.1);
   }
 
   .section-bg {
